@@ -116,6 +116,8 @@ function onClickPayNow(){
 	$("#transaction_fee").html(
 		'$' + transaction_fee.toString()
 	);
+
+	$("#div_payment_confirmation").hide();
 }
 
 function onClickShowContract(){
@@ -139,6 +141,8 @@ function onClickShowContract(){
 	$("#fortnightly_installment").html(
 		'$' + fortnightly_installment.toString()
 	);
+
+	$("#div_payment_confirmation").hide();
 }
 
 function onClickAcceptContract(){
